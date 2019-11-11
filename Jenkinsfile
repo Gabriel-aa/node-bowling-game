@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-              sh 'npm ci'
+              sh 'npm i'
               sh 'npm start & sleep 1'
             }
         }
