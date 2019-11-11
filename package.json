@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon Game.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jenkins-mocha test/*"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
+    "jenkins-mocha": "^8.0.0",
     "mocha": "^6.2.2"
   },
   "directories": {
